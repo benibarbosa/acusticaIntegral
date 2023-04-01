@@ -11871,3 +11871,12 @@ padding-bottom:0px;
 	padding-right: 4%
 }
 
+.separador-verde {
+  background: #038004;
+  height: 1px;
+}
+
+.verde {
+  color: #038004;
+}
+

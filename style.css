@@ -260,7 +260,7 @@ box-shadow:none;
 left:3.69%;
 right:auto;
 top:10px;
-width:149px;
+width:649px;
 min-height:48px;
 position:absolute;
 display:block;
@@ -1575,7 +1575,7 @@ box-shadow:none;
 left:3.69%;
 right:auto;
 top:10px;
-width:147px;
+width:647px;
 min-height:48px;
 position:absolute;
 display:block;
@@ -9470,8 +9470,8 @@ overflow:visible;
 }
  .btn-primary
 {
-background-color:#3498DB;
-background:rgba(52,152,219,1);
+background-color:green;
+background:#32CD32;
 background-clip:padding-box;color:#FFFFFF;
 border-color:#258CD1;
 }

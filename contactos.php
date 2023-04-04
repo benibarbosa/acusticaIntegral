@@ -238,8 +238,8 @@
                               </div>
                               <div class="form-group">
                                  <div class="col-sm-4 col-sm-offset-8"><input type="submit"
-                                       rows="4" id="submit" name="submit"
-                                       value="Submit" /></div>
+                                       rows="4" id="submit" name="submit"  class="pull-right btn btn-md btn-primary"
+                                       value="Aceptar" /></div>
                               </div>
                               <div class="clearfix"></div>
                               <div class="success"></div>

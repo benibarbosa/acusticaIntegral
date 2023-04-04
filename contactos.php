@@ -59,6 +59,11 @@
     $headers = "From:" . $from;
    
     mail($to,$subject,$message, $headers);
+        echo '
+<script>
+window.open("Whatsapp","_blank");
+location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%20me%20interesar%C3%ADa%20tener%20m%C3%A1s%20informacion";
+</script>'
     }
 
 ?>

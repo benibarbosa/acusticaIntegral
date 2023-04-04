@@ -9471,7 +9471,7 @@ overflow:visible;
  .btn-primary
 {
 background-color:green;
-background:#32CD32;
+background:green;
 background-clip:padding-box;color:#FFFFFF;
 border-color:#258CD1;
 }

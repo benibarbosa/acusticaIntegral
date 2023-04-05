@@ -11880,3 +11880,6 @@ padding-bottom:0px;
   color: #038004;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #888888 !important;
+}

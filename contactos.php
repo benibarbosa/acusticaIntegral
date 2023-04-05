@@ -63,7 +63,7 @@
 <script>
 window.open("Whatsapp","_blank");
 location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%20me%20interesar%C3%ADa%20tener%20m%C3%A1s%20informacion";
-</script>'
+</script>';
     }
 
 ?>
@@ -150,7 +150,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
             <div class="ttr_headershape02">
                <div class="html_content">
                   <p><span
-                        style="font-family:'Titillium Web','Arial';font-weight:600;font-size:2.286em;color:green;">CONTACTANOS
+                        style="font-family:'Titillium Web','Arial';font-weight:600;font-size:2.286em;color:green;">Contacto
                      </span></p>
                </div>
             </div>

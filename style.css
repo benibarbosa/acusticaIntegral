@@ -6159,7 +6159,7 @@ bottom:auto;
 left:0%;
 margin:0;
 height:64px;
-width:295px;
+/*width:295px;*/
 display:block;
 position:absolute;
 border:0 none;
@@ -11871,6 +11871,11 @@ padding-bottom:0px;
 	padding-right: 4%
 }
 
+.padding_divcol2{
+	padding-left: 1%;
+	padding-right: 1%
+}
+
 .separador-verde {
   background: #038004;
   height: 1px;
@@ -11880,3 +11885,39 @@ padding-bottom:0px;
   color: #038004;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #888888 !important;
+}
+
+.tablinkDefault {
+  background-color: green;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablinkDefault:hover {
+  background-color: #777;
+}
+
+.tablink {
+  background-color: white;
+  color: green;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+  color: white;
+}

@@ -24,53 +24,49 @@
    </title>
    <link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" />
    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-   <!--[if lte IE 8]>
-<link rel="stylesheet"  href="menuie.css" type="text/css" media="screen"/>
-<link rel="stylesheet"  href="vmenuie.css" type="text/css" media="screen"/>
-<![endif]-->
+   <link rel="shortcut icon" href="images/ai.png">
    <script type="text/javascript" src="totop.js">
    </script>
-   <!--[if IE 7]>
-<style type="text/css" media="screen">
-#ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
-</style>
-<![endif]-->
-   <!--[if lt IE 9]>
-<script type="text/javascript" src="html5shiv.js">
-</script>
-<script type="text/javascript" src="respond.min.js">
-</script>
-<![endif]-->
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 
 <?php
-    if(isset($_POST['submit'])){
-        
-         ini_set( 'display_errors', 1 );
-    
-    error_reporting( E_ALL );
-    $from = "contacto@acusticaintegral.com.mx";
-    
+if (isset($_POST['submit'])) {
+
+   ini_set('display_errors', 1);
+
+   error_reporting(E_ALL);
+   $from = "contacto@acusticaintegral.com.mx";
+
    // $to = $_POST["email"];
-    $to = "miguelga.mg94@gmail.com";
-   
-    $subject = "Informes";
-    $message = "telefono ".$_POST["telefono"]." nombre ".$_POST["nombre"]." email ".$_POST["email"]." mensaje ".$_POST["mensaje"];
-    $headers = "From:" . $from;
-   
-    mail($to,$subject,$message, $headers);
-        echo '
+   $to = "miguelga.mg94@gmail.com";
+
+   $subject = "Informes";
+   $message = "telefono " . $_POST["telefono"] . " nombre " . $_POST["nombre"] . " email " . $_POST["email"] . " mensaje " . $_POST["mensaje"];
+   $headers = "From:" . $from;
+
+   mail($to, $subject, $message, $headers);
+   echo '
 <script>
 window.open("Whatsapp","_blank");
 location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%20me%20interesar%C3%ADa%20tener%20m%C3%A1s%20informacion";
 </script>';
-    }
+}
 
 ?>
 
 
 
 <body class="Contact-Us">
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
    <div class="totopshow">
       <a href="#" class="back-to-top"><img alt="Back to Top" src="images/gototop0.png" /></a>
    </div>
@@ -125,7 +121,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                      </li>
                      <li class="ttr_menu_items_parent dropdown">
                         <a href="clientes.html" class="ttr_menu_items_parent_link"><span
-                              class="menuchildicon"></span>Clientes</a>
+                              class="menuchildicon"></span>Clientes/Proyectos</a>
                         <hr class="horiz_separator" />
                      </li>
                      <li class="ttr_menu_items_parent dropdown active">
@@ -223,10 +219,10 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                  style="font-family:'Titillium Web','Verdana';font-weight:600;font-size:1.429em;">Información
                                  de contacto</span></p>
                            <p style="margin:1.43em 0em 0.36em 0em;">
-                           <form   class="form-horizontal" role="form" method="post" action="contactos.php"
+                           <form class="form-horizontal" role="form" method="post" action="contactos.php"
                               style="padding:0px 0px 0px 0px;float:left;">
                               <div class="form-group"><label class="col-sm-4 control-label required">Nombre</label>
-                                 <div class="col-sm-8"><input  type="text"  name="nombre" class="form-control required"
+                                 <div class="col-sm-8"><input type="text" name="nombre" class="form-control required"
                                        data-vali="novalidation" /></div>
                               </div>
                               <div class="form-group"><label class="col-sm-4 control-label required">Email</label>
@@ -238,20 +234,19 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                        data-vali="novalidation" /></div>
                               </div>
                               <div class="form-group"><label class="col-sm-4 control-label">Mensaje</label>
-                                 <div class="col-sm-8"><textarea name="mensaje" class="form-control comment" name="message"
-                                       rows="4"></textarea></div>
+                                 <div class="col-sm-8"><textarea name="mensaje" class="form-control comment"
+                                       name="message" rows="4"></textarea></div>
                               </div>
                               <div class="form-group">
-                                 <div class="col-sm-4 col-sm-offset-8"><input type="submit"
-                                       rows="4" id="submit" name="submit"  class="pull-right btn btn-md btn-primary"
-                                       value="Aceptar" /></div>
+                                 <div class="col-sm-4 col-sm-offset-8"><input type="submit" rows="4" id="submit"
+                                       name="submit" class="pull-right btn btn-md btn-primary" value="Aceptar" /></div>
                               </div>
                               <div class="clearfix"></div>
                               <div class="success"></div>
                               <div class="req_field"></div>
                               <div class="clearfix"></div>
                            </form>
-                           
+
                            </p>
                            <p>&nbsp;</p>
                         </div>

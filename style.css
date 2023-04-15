@@ -6757,6 +6757,15 @@ background-size:cover;
 background-position:Center Center;
 background-clip:padding-box;
 }
+#Slide2
+{
+background:url(images/HomeDesktopSlide2.jpeg);
+background-color:#3498DB;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:Center Center;
+background-clip:padding-box;
+}
  .ttr_slide
 {
 height:534px;
@@ -11882,6 +11891,10 @@ padding-bottom:0px;
 }
 
 .verde {
+  color: #038004;
+}
+
+.verde:hover {
   color: #038004;
 }
 

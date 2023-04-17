@@ -11935,7 +11935,7 @@ padding-bottom:0px;
   color: white;
 }
 
-.fa-download:before {
+.fa-download {
   content: "\f019"
 }
 
@@ -11946,4 +11946,8 @@ padding-bottom:0px;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
+}
+
+.verde:hover {
+  color: #038004;
 }

@@ -22,26 +22,21 @@
    <link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" />
    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
    <link rel="shortcut icon" href="images/ai.png">
-   <!--[if lte IE 8]>
-<link rel="stylesheet"  href="menuie.css" type="text/css" media="screen"/>
-<link rel="stylesheet"  href="vmenuie.css" type="text/css" media="screen"/>
-<![endif]-->
    <script type="text/javascript" src="totop.js">
    </script>
-   <!--[if IE 7]>
-<style type="text/css" media="screen">
-#ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
-</style>
-<![endif]-->
-   <!--[if lt IE 9]>
-<script type="text/javascript" src="html5shiv.js">
-</script>
-<script type="text/javascript" src="respond.min.js">
-</script>
-<![endif]-->
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 
 <body class="sectores">
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
    <div class="totopshow">
       <a href="#" class="back-to-top"><img alt="Back to Top" src="images/gototop0.png" /></a>
    </div>
@@ -85,7 +80,7 @@
                         <hr class="horiz_separator" />
                      </li>
                      <li class="ttr_menu_items_parent dropdown">
-                        <a href="services.html" class="ttr_menu_items_parent_link"><span
+                        <a href="productos.html" class="ttr_menu_items_parent_link"><span
                               class="menuchildicon"></span>Productos</a>
                         <hr class="horiz_separator" />
                      </li>
@@ -134,12 +129,14 @@
       <div class="topSpace"></div>
 
       <section id="industrial">
-		<div class="row">
-			<div class="col-lg-12">
-				<button name="clientes" class="tablinkDefault" onclick="clientesProyectos(this.name)" id="clientesButton">Clientes</button>
-				<button name="proyectos" class="tablink" onclick="clientesProyectos(this.name)" id="proyectosButton">Proyectos</button>
-			</div>
-		</div>	
+         <div class="row">
+            <div class="col-lg-12">
+               <button name="clientes" class="tablinkDefault" onclick="clientesProyectos(this.name)"
+                  id="clientesButton">Clientes</button>
+               <button name="proyectos" class="tablink" onclick="clientesProyectos(this.name)"
+                  id="proyectosButton">Proyectos</button>
+            </div>
+         </div>
       </section>
 
 
@@ -453,42 +450,42 @@
          var s = document.getElementsByTagName('script')[0];
          s.parentNode.insertBefore(wf, s);
       })();
-	  
-		function pruebas(value) {
-			var i, tabcontent, tablinks;
-			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
-			tabcontent[i].style.display = "none";
-			}
-			tablinks = document.getElementsByClassName("tablink");
-			for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].style.backgroundColor = "";
-			}
-			document.getElementById(cityName).style.display = "block";
-			elmnt.style.backgroundColor = color;
 
-		}
-		
-		function clientesProyectos(value){
-			console.log(value);
-			if(value == 'clientes'){
-				document.getElementById("clientesButton").classList.remove("tablink");
-				document.getElementById("clientesButton").classList.add("tablinkDefault");
-				document.getElementById("proyectosButton").classList.remove("tablinkDefault");
-				document.getElementById("proyectosButton").classList.add("tablink");
-				
-				document.getElementById("seccionClientes").style.display = "block";
-				document.getElementById("seccionProyectos").style.display = "none";
-			}else if(value == 'proyectos'){
-				document.getElementById("clientesButton").classList.remove("tablinkDefault");
-				document.getElementById("clientesButton").classList.add("tablink");
-				document.getElementById("proyectosButton").classList.remove("tablink");
-				document.getElementById("proyectosButton").classList.add("tablinkDefault");
-				
-				document.getElementById("seccionClientes").style.display = "none";
-				document.getElementById("seccionProyectos").style.display = "block";
-			}
-		}
+      function pruebas(value) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablink");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+         }
+         document.getElementById(cityName).style.display = "block";
+         elmnt.style.backgroundColor = color;
+
+      }
+
+      function clientesProyectos(value) {
+         console.log(value);
+         if (value == 'clientes') {
+            document.getElementById("clientesButton").classList.remove("tablink");
+            document.getElementById("clientesButton").classList.add("tablinkDefault");
+            document.getElementById("proyectosButton").classList.remove("tablinkDefault");
+            document.getElementById("proyectosButton").classList.add("tablink");
+
+            document.getElementById("seccionClientes").style.display = "block";
+            document.getElementById("seccionProyectos").style.display = "none";
+         } else if (value == 'proyectos') {
+            document.getElementById("clientesButton").classList.remove("tablinkDefault");
+            document.getElementById("clientesButton").classList.add("tablink");
+            document.getElementById("proyectosButton").classList.remove("tablink");
+            document.getElementById("proyectosButton").classList.add("tablinkDefault");
+
+            document.getElementById("seccionClientes").style.display = "none";
+            document.getElementById("seccionProyectos").style.display = "block";
+         }
+      }
    </script>
 </body>
 

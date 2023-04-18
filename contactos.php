@@ -412,7 +412,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                   <div class="clearfix visible-xs-block"></div>
       
                   <div class="clearfix visible-xs-block"></div>
-                  <div class="post_column col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
                      <div class="ttr_footerHome_html_column03">
                         <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                         <div class="html_content">
@@ -438,37 +438,14 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                   <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block"></div>
                </div>
       
-               <div class="ttr_footerHome_html_row0 row">
-                  <div class="post_column col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lg-offset-3">
-                     <div class="ttr_footerHome_html_column00">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="html_content">
-                           <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="color:#038004; text-decoration: none;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de
-                           Acústica Integral S.L.
-                           <br>
-                           <a href="mailto:info@eklinternacional.com"
-                              style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y
-                           productos en esta página pertencen a Acústica Integral S.L. <a
-                              href="http://www.acusticaintegral.com" target="_blank"
-                              style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                     </div>
-                  </div>
-               </div>
+               <br>
+         <br>
+         <div class="row">
+            <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
+            <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
+            <br>
+            <br>
+         </div>
                <!--Fin-->
             </footer>
       <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>

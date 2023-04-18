@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
    $to = "miguelga.mg94@gmail.com";
 
    $subject = "Informes";
-   $message = "telefono " . $_POST["telefono"] . " nombre " . $_POST["nombre"] . " email " . $_POST["email"] . " mensaje " . $_POST["mensaje"];
+   $message = "telefono " . $_POST["telefono"] . " nombre " . $_POST["nombre"] . " email " . $_POST["email"] . "pais".$_POST["pais"]."estado".$_POST["estado"]." mensaje " . $_POST["mensaje"];
    $headers = "From:" . $from;
 
    mail($to, $subject, $message, $headers);
@@ -194,14 +194,9 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                            <p style="margin:1.07em 0em 0.36em 0em;"><span
                                  style="font-family:'Verdana';color:rgba(105,105,105,1);">TELÉFONO: </span><span
                                  style="font-family:'Verdana';color:rgba(105,105,105,1);">+52 (55)5861 5137</span></p>
-                           <p style="margin:0.57em 0em 0.36em 0em;"><span
-                                 style="font-family:'Verdana';color:rgba(105,105,105,1);">TELÉFONO:&nbsp;&nbsp;</span><span
-                                 style="font-family:'Verdana';color:rgba(105,105,105,1);">+52 (55)5819 5559</span></p>
+                          
 
-                           <p style="margin:1.07em 0em 0.36em 0em;"><span
-                                 style="font-family:'Verdana';color:rgba(105,105,105,1);">E-mail:
-                                 info@acusticaintegral.com.mx</span></p>
-                           <p><br style="color:rgba(105,105,105,1);" /></p>
+                           
 
 
                         </div>
@@ -228,6 +223,14 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                               <div class="form-group"><label class="col-sm-4 control-label required">Email</label>
                                  <div class="col-sm-8"><input type="text" name="email" class="form-control required"
                                        data-vali="email" /></div>
+                              </div>
+                              <div class="form-group"><label class="col-sm-4 control-label">Teléfono</label>
+                                 <div class="col-sm-8"><input type="text" name="pais" class="form-control"
+                                       data-vali="novalidation" /></div>
+                              </div>
+                              <div class="form-group"><label class="col-sm-4 control-label">Teléfono</label>
+                                 <div class="col-sm-8"><input type="text" name="estado" class="form-control"
+                                       data-vali="novalidation" /></div>
                               </div>
                               <div class="form-group"><label class="col-sm-4 control-label">Teléfono</label>
                                  <div class="col-sm-8"><input type="text" name="telefono" class="form-control"
@@ -427,10 +430,8 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                  style="font-family:'Verdana';color:rgba(255,255,255,1);">TEL :- +52 5558615137</span></p>
                            <p style="margin:0.71em 0em 0em 4.29em;"><span
                                  style="font-family:'Verdana';color:rgba(255,255,255,1);">DIR :- Av. Quetzal 84 lt 1, Lomas
-                                 del Bosque | Cuautitlan Izcalli, Estado de México.</span></p>
-                           <p style="margin:0.71em 0em 0em 4.29em;"><span
-                                 style="font-family:'Verdana';color:rgba(255,255,255,1);">EMAIL :-
-                                 info@acusticaintegral.com.mx</span></p>
+                                 del Bosque <br> Cuautitlan Izcalli, Estado de México.</span></p>
+                         
                         </div>
                         <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                      </div>

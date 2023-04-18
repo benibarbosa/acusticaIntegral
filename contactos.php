@@ -328,9 +328,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                            <p style="margin:0.71em 0em 0em 4.29em;"><span
                                  style="font-family:'Verdana';color:rgba(255,255,255,1);">DIR :- Av. Quetzal 84 lt 1, Lomas
                                  del Bosque | Cuautitlan Izcalli, Estado de México.</span></p>
-                           <p style="margin:0.71em 0em 0em 4.29em;"><span
-                                 style="font-family:'Verdana';color:rgba(255,255,255,1);">EMAIL :-
-                                 info@acusticaintegral.com.mx</span></p>
+                          
                         </div>
                         <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                      </div>

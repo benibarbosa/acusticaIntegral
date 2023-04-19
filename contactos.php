@@ -20,7 +20,7 @@
    </script>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>
-      contact
+      Contactos
    </title>
    <link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" />
    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
@@ -224,11 +224,11 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                  <div class="col-sm-8"><input type="text" name="email" class="form-control required"
                                        data-vali="email" /></div>
                               </div>
-                              <div class="form-group"><label class="col-sm-4 control-label">Teléfono</label>
+                              <div class="form-group"><label class="col-sm-4 control-label">País</label>
                                  <div class="col-sm-8"><input type="text" name="pais" class="form-control"
                                        data-vali="novalidation" /></div>
                               </div>
-                              <div class="form-group"><label class="col-sm-4 control-label">Teléfono</label>
+                              <div class="form-group"><label class="col-sm-4 control-label">Estado</label>
                                  <div class="col-sm-8"><input type="text" name="estado" class="form-control"
                                        data-vali="novalidation" /></div>
                               </div>
@@ -367,84 +367,6 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                      </div>
                   </div>
                </div>
-               <!--Fin-->
-            </footer><footer id="ttr_footer">
-               <!--Inicio-->
-               <div class="ttr_footerHome_html_row0 row">
-                  <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3">
-                     <div class="ttr_footerHome_html_column00">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="html_content">
-                           <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><a HREF="home.html" class="tt_link" target="_self"><span
-                                    style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;">COMPAÑIA</span>
-                           </p>
-                           <p style="margin:1.43em 0em 0em 4.29em;"><a HREF="sectores.html" class="tt_link"
-                                 target="_self"><span
-                                    style="font-family:'Verdana';color:rgba(255,255,255,1);">SECTORES</span></a></p>
-      
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="conceptos.html" class="tt_link"
-                                 target="_self"><span
-                                    style="font-family:'Verdana';color:rgba(255,255,255,1);">CONCEPTOS</span></a></p>
-      
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="productos.html" class="tt_link"
-                                 target="_self"><span
-                                    style="font-family:'Verdana';color:rgba(255,255,255,1);">PRODUCTOS</span></a></p>
-      
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="control-de-ruido.html" class="tt_link"
-                                 target="_self"><span style="font-family:'Verdana';color:rgba(255,255,255,1);">CONTROL DE
-                                    RUIDO</span></a></p>
-      
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="clientes.html" class="tt_link"
-                                 target="_self"><span
-                                    style="font-family:'Verdana';color:rgba(255,255,255,1);">CLIENTES</span></a></p>
-      
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="contactos.php" class="tt_link"
-                                 target="_self"><span
-                                    style="font-family:'Verdana';color:rgba(255,255,255,1);">CONTACTO</span></a></p>
-      
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                     </div>
-                  </div>
-                  <div class="clearfix visible-xs-block"></div>
-      
-                  <div class="clearfix visible-xs-block"></div>
-                  <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                     <div class="ttr_footerHome_html_column03">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="html_content">
-                           <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><span
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;">CONTACTO</span>
-                           </p>
-                           <p style="margin:1.43em 0em 0em 4.29em;"><span
-                                 style="font-family:'Verdana';color:rgba(255,255,255,1);">TEL :- +52 5558615137</span></p>
-                           <p style="margin:0.71em 0em 0em 4.29em;"><span
-                                 style="font-family:'Verdana';color:rgba(255,255,255,1);">DIR :- Av. Quetzal 84 lt 1, Lomas
-                                 del Bosque <br> Cuautitlan Izcalli, Estado de México.</span></p>
-                         
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                     </div>
-                  </div>
-                  <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block"></div>
-               </div>
-      
-               <br>
-         <br>
-         <div class="row">
-            <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
-            <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
-            <br>
-            <br>
-         </div>
                <!--Fin-->
             </footer>
       <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>

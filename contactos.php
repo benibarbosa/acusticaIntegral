@@ -14,13 +14,13 @@
    </script>
    <script type="text/javascript" src="bootstrap.min.js">
    </script>
-   <script type="text/javascript" src="Customjs.js">
+   <!--<script type="text/javascript" src="Customjs.js">
    </script>
    <script type="text/javascript" src="contactform.js">
-   </script>
+   </script>-->
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>
-      Contactos
+      Contacto
    </title>
    <link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" />
    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
@@ -35,26 +35,115 @@
 </head>
 
 <?php
-if (isset($_POST['submit'])) {
-
+ $envio=$_POST['submit'];
+if (isset($envio)) {
+   
    ini_set('display_errors', 1);
 
    error_reporting(E_ALL);
    $from = "contacto@acusticaintegral.com.mx";
 
    // $to = $_POST["email"];
-   $to = "miguelga.mg94@gmail.com";
-
+  //$to = "miguelga.mg94@gmail.com";
+  
+   $to="emmanuel@acusticaintegral.com.mx";
    $subject = "Informes";
-   $message = "telefono " . $_POST["telefono"] . " nombre " . $_POST["nombre"] . " email " . $_POST["email"] . "pais".$_POST["pais"]."estado".$_POST["estado"]." mensaje " . $_POST["mensaje"];
-   $headers = "From:" . $from;
+   $mensaje ='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Informes</title>
+    
+</head>
+<body><div><div><p style="margin:0em 0em 0em 0em;text-align:Center;"><span style="font-family:\'Titillium Web\',\'Arial\';font-weight:600;font-size:3.214em;color:green;">ACUSTICA INTEGRAL</span></p><p style="margin:0em 0em 0em 0em;text-align:Center;"><span style="font-family:\'Titillium Web\',\'Arial\';font-size:1.286em;color:rgba(52,52,52,1);">
+                                 Fabricación, diseño, comercialización e instalación de materiales acústicos, sistemas de insonorización y servicios de ingeniería acústica. Disponemos de la experiencia necesaria para resolver todos los problemas de ruido.
+                                 </span>
+                              </p></div><div> <table width="80%">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Información</th>
+        
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td>Nombre</td>
+        <td>'. $_POST["nombre"].'</td>
+        
+      </tr>
+      <tr>
+        <td>Telefono</td>
+        <td>'. $_POST["telefono"].'</td>
+        
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>'. $_POST["email"] .'</td>
+        
+      </tr>
+      <tr>
+        <td>País</td>
+        <td>'.$_POST["pais"].'</td>
+        
+      </tr><tr>
+        <td>Estado</td>
+        <td>'.$_POST["estado"].'</td>
+        
+      </tr><tr>
+        <td>Mensaje</td>
+        <td>'. $_POST["mensaje"].'</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div><br></div>
 
-   mail($to, $subject, $message, $headers);
+<div class="row" style="
+    background-color: #343434;
+">
+                  <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
+                  <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
+                  <br>
+                  <br>
+               </div>
+</div> </body></html>'; 
+   
+$mensaje2 ='<div><div><p style="margin:0em 0em 0em 0em;text-align:Center;"><span style="font-family:\'Titillium Web\',\'Arial\';font-weight:600;font-size:3.214em;color:green;">ACUSTICA INTEGRAL</span></p><p style="margin:0em 0em 0em 0em;text-align:Center;"><span style="font-family:\'Titillium Web\',\'Arial\';font-size:1.286em;color:rgba(52,52,52,1);">
+                                 Fabricación, diseño, comercialización e instalación de materiales acústicos, sistemas de insonorización y servicios de ingeniería acústica. Disponemos de la experiencia necesaria para resolver todos los problemas de ruido.
+                                 </span>
+                              </p></div><div> Gracias por contactarnos en un momento un asesor se comunicara con usted
+</div><br></div>
+
+<div class="row" style="
+    background-color: #343434;
+">
+                  <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
+                  <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
+                  <br>
+                  <br>
+               </div>
+</div>'; 
+      
+
+   
+   $headers = "MIME-Version: 1.0" . "\r\n";
+
+# ojo, es una concatenación:
+$headers .= "Content-type:text/html; charset=UTF-8" . "\r\n";
+   $headers .= "From:" . $from;
+   mail($_POST["email"], $subject,$mensaje, $headers);    
+   mail($to, $subject, $mensaje2, $headers);
+   
    echo '
 <script>
-window.open("Whatsapp","_blank");
-location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%20me%20interesar%C3%ADa%20tener%20m%C3%A1s%20informacion";
+ alert("Se ha enviado correctamente tu datos");
+
 </script>';
+     $envio='';
     }
 
 ?>
@@ -95,7 +184,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                <div class="menu-center collapse navbar-collapse">
                   <ul class="ttr_menu_items nav navbar-nav navbar-right">
                      <li class="ttr_menu_items_parent dropdown">
-                        <a href="home.html" class="ttr_menu_items_parent_link"><span
+                        <a href="index.html" class="ttr_menu_items_parent_link"><span
                               class="menuchildicon"></span>Inicio</a>
                         <hr class="horiz_separator" />
                      </li>
@@ -120,7 +209,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                         <hr class="horiz_separator" />
                      </li>
                      <li class="ttr_menu_items_parent dropdown">
-                        <a href="clientes.html" class="ttr_menu_items_parent_link"><span
+                        <a href="clientes.php" class="ttr_menu_items_parent_link"><span
                               class="menuchildicon"></span>Clientes/Proyectos</a>
                         <hr class="horiz_separator" />
                      </li>
@@ -193,7 +282,9 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                  México</span></p>
                            <p style="margin:1.07em 0em 0.36em 0em;"><span
                                  style="font-family:'Verdana';color:rgba(105,105,105,1);">TELÉFONO: </span><span
-                                 style="font-family:'Verdana';color:rgba(105,105,105,1);">+52 (55)5861 5137</span></p>
+                                 style="font-family:'Verdana';color:rgba(105,105,105,1);">+52 (55)5861 5137</span><br>
+                                 <a href="https://api.whatsapp.com/send?phone=5215529815651&text=Hola%2C%20me%20interesar%C3%ADa%20tener%20m%C3%A1s%20informacion"><img src="images/whatsapp.gif"></img></a>
+                                 </p>
                           
 
                            
@@ -267,7 +358,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
          </div>
       </div>
       <div style="height:0px;width:0px;overflow:hidden;"></div>
-      <footer id="ttr_footer">
+       <footer id="ttr_footer">
                <!--Inicio-->
                <div class="ttr_footerHome_html_row0 row">
                   <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3">
@@ -297,7 +388,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                                  target="_self"><span style="font-family:'Verdana';color:rgba(255,255,255,1);">CONTROL DE
                                     RUIDO</span></a></p>
       
-                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="clientes.html" class="tt_link"
+                           <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="clientes.php" class="tt_link"
                                  target="_self"><span
                                     style="font-family:'Verdana';color:rgba(255,255,255,1);">CLIENTES</span></a></p>
       
@@ -312,7 +403,7 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                   <div class="clearfix visible-xs-block"></div>
       
                   <div class="clearfix visible-xs-block"></div>
-                  <div class="post_column col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
                      <div class="ttr_footerHome_html_column03">
                         <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                         <div class="html_content">
@@ -328,44 +419,22 @@ location.href= "https://api.whatsapp.com/send?phone=5215545055919&text=Hola%2C%2
                            <p style="margin:0.71em 0em 0em 4.29em;"><span
                                  style="font-family:'Verdana';color:rgba(255,255,255,1);">DIR :- Av. Quetzal 84 lt 1, Lomas
                                  del Bosque | Cuautitlan Izcalli, Estado de México.</span></p>
-                          
+                           <p style="margin:0.71em 0em 0em 4.29em;"><span
+                                 style="font-family:'Verdana';color:rgba(255,255,255,1);">EMAIL :-
+                                 info@acusticaintegral.com.mx</span></p>
                         </div>
                         <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                      </div>
                   </div>
                   <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block"></div>
                </div>
-      
-               <div class="ttr_footerHome_html_row0 row">
-                  <div class="post_column col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lg-offset-3">
-                     <div class="ttr_footerHome_html_column00">
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                        <div class="html_content">
-                           <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="color:#038004; text-decoration: none;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de
-                           Acústica Integral S.L.
-                           <br>
-                           <a href="mailto:info@eklinternacional.com"
-                              style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y
-                           productos en esta página pertencen a Acústica Integral S.L. <a
-                              href="http://www.acusticaintegral.com" target="_blank"
-                              style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                           <p style="margin:0em 0em 0em 4.29em;"><br
-                                 style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
-                           </p>
-                        </div>
-                        <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                     </div>
-                  </div>
+               <br>
+               <br>
+               <div class="row">
+                  <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
+                  <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
+                  <br>
+                  <br>
                </div>
                <!--Fin-->
             </footer>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<?php
+   
+?>
+<head>
+   <meta charset="utf-8">
+   <script type="text/javascript" src="jquery.js">
+   </script>
+   <script type="text/javascript" src="jquery-ui.min.js">
+   </script>
+   <script type="text/javascript" src="tt_slideshow.js">
+   </script>
+   <script type="text/javascript" src="bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="Customjs.js">
+   </script>
+   <script type="text/javascript" src="contactform.js">
+   </script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>
+      Acústica Integral | Clientes
+   </title>
+   <link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+   <link rel="shortcut icon" href="images/ai.png">
+   <script type="text/javascript" src="totop.js">
+   </script>
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+</head>
+
+<body class="sectores">
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830516782"></script>
+   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-830516782'); </script>
+   <script> gtag('config', 'AW-830516782/AW9FCLTYn_oDEK7cgowD', { 'phone_conversion_number': '5558615137' }); </script>
+   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+   <div class="totopshow">
+      <a href="#" class="back-to-top"><img alt="Back to Top" src="images/gototop0.png" /></a>
+   </div>
+   <div id="ttr_page" class="container">
+      <nav id="ttr_menu" class="navbar-default navbar">
+         <div id="ttr_menu_inner_in">
+            <div class="menuforeground">
+            </div>
+            <div id="navigationmenu">
+               <div class="navbar-header">
+                  <button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle"
+                     type="button">
+                     <span class="sr-only">
+                     </span>
+                     <span class="icon-bar">
+                     </span>
+                     <span class="icon-bar">
+                     </span>
+                     <span class="icon-bar">
+                     </span>
+                  </button>
+                  <a href="http://acusticaintegral.com.mx/" target="_self">
+                     <img class="ttr_menu_logo" src="menulogo.svg">
+                  </a>
+               </div>
+               <div class="menu-center collapse navbar-collapse">
+                  <ul class="ttr_menu_items nav navbar-nav navbar-right">
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="index.html" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Inicio</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="sectores.html" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Sectores</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="conceptos.html" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Conceptos</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="productos.html" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Productos</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="control-de-ruido.html" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Control de Ruido</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown active">
+                        <a href="clientes.php" class="ttr_menu_items_parent_link_active"><span
+                              class="menuchildicon"></span>Clientes/Proyectos</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                     <li class="ttr_menu_items_parent dropdown">
+                        <a href="contactos.php" class="ttr_menu_items_parent_link"><span
+                              class="menuchildicon"></span>Contacto</a>
+                        <hr class="horiz_separator" />
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <header id="ttr_header">
+         <div id="ttr_header_inner">
+            <div class="ttr_headershape01">
+               <div class="html_content">
+                  <p><span
+                        style="font-family:'Titillium Web','Arial';font-weight:600;font-size:2.286em;color:#03b403;">HOME</span>
+                  </p>
+               </div>
+            </div>
+            <div class="ttr_headershape02">
+               <div class="html_content">
+                  <p style="margin:0.36em 0em 0.36em 0em;"><span
+                        style="font-family:'Titillium Web','Arial';font-weight:600;font-size:2.286em;color:#03b403;">sectores</span>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!--Clientes-->
+
+
+      <div class="topSpace"></div>
+
+      <section id="industrial">
+         <div class="row">
+            <div class="col-lg-12">
+               <button name="clientes" class="tablinkDefault" onclick="clientesProyectos(this.name)"
+                  id="clientesButton">Clientes</button>
+               <button name="proyectos" class="tablink" onclick="clientesProyectos(this.name)"
+                  id="proyectosButton">Proyectos</button>
+            </div>
+         </div>
+      </section>
+
+
+
+      <br><br>
+
+
+      <section id="seccionClientes">
+
+         <div class="container">
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/LOGO_Audi.jpg" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/pedro_domecq.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/DB_logo.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/ABC.jpg" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/unilever-logo.jpg" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/Logo Mabuchi_Motor.png"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/maxion-wheels_owler_20160226_174126_original.png"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/sULTANA.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/royal-fblogo.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/fw-joya-cirque-logo-vidanta.gif"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/cirque.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/Faurecia_Logo.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/marindustrias-grupomar.jpg"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/abbott.jpg" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/mavi.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/BorgWarner.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/schneider_electric.png"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/cimo.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/conservatorio.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/prolec-ge.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/Denso.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/dina.jpg" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/Bayer-logo-6E4150DD91-seeklogo.com.png"
+                     class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/bridgestone-logo-10.jpg"
+                     class="img-responsive cliente"></div>
+            </div>
+
+
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/ingredion.jpg" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/tenaristamsa1.jpg" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/PG_logo_1995.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/parker_black.jpg" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/Gates-logo.png" class="img-responsive cliente">
+               </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/aldesa.png" class="img-responsive cliente"></div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-xs-6 cliente_box">
+               <div class="cliente_child"><img src="images/clientes/pfizer-logo.jpg" class="img-responsive cliente">
+               </div>
+            </div>
+
+         </div>
+
+      </section>
+	  
+	  <section id="seccionProyectos" style="display:none;">
+	      	
+	      <div class="row padding_divcol">
+	      <?php
+	        $directorio = "images/proyectos";
+#carpeta con archivos
+$contador = 0;
+
+$archivos = glob("$directorio/*");
+
+
+foreach ($archivos as $archivo) {   
+   
+    echo '<div class="col-lg-4 " style="border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 25px;
+  ">
+				<div class="cliente_child"><img  style=" height: 400px; align:center; width:100%" src="'.$archivo.'" class="img-responsive cliente"></div>
+			</div>';
+ }
+	      
+	      ?>
+	      </div>	
+	   
+	
+	  </section>
+
+      <!--Clientes-->
+
+      <div style="height:0px;width:0px;overflow:hidden;"></div>
+      <footer id="ttr_footer">
+         <!--Inicio-->
+         <div class="ttr_footerHome_html_row0 row">
+            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3">
+               <div class="ttr_footerHome_html_column00">
+                  <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+                  <div class="html_content">
+                     <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
+                     <p style="margin:0em 0em 0em 4.29em;"><br
+                           style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
+                     </p>
+                     <p style="margin:0em 0em 0em 4.29em;"><a HREF="home.html" class="tt_link" target="_self"><span
+                              style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;">COMPAÑIA</span>
+                     </p>
+                     <p style="margin:1.43em 0em 0em 4.29em;"><a HREF="sectores.html" class="tt_link"
+                           target="_self"><span
+                              style="font-family:'Verdana';color:rgba(255,255,255,1);">SECTORES</span></a></p>
+
+                     <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="conceptos.html" class="tt_link"
+                           target="_self"><span
+                              style="font-family:'Verdana';color:rgba(255,255,255,1);">CONCEPTOS</span></a></p>
+
+                     <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="productos.html" class="tt_link"
+                           target="_self"><span
+                              style="font-family:'Verdana';color:rgba(255,255,255,1);">PRODUCTOS</span></a></p>
+
+                     <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="control-de-ruido.html" class="tt_link"
+                           target="_self"><span style="font-family:'Verdana';color:rgba(255,255,255,1);">CONTROL DE
+                              RUIDO</span></a></p>
+
+                     <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="clientes.php" class="tt_link"
+                           target="_self"><span
+                              style="font-family:'Verdana';color:rgba(255,255,255,1);">CLIENTES</span></a></p>
+
+                     <p style="margin:0.71em 0em 0em 4.29em;"><a HREF="contactos.php" class="tt_link"
+                           target="_self"><span
+                              style="font-family:'Verdana';color:rgba(255,255,255,1);">CONTACTO</span></a></p>
+
+                  </div>
+                  <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+               </div>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+
+            <div class="clearfix visible-xs-block"></div>
+            <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
+               <div class="ttr_footerHome_html_column03">
+                  <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+                  <div class="html_content">
+                     <p style="margin:0em 0em 0em 4.29em;">&nbsp;</p>
+                     <p style="margin:0em 0em 0em 4.29em;"><br
+                           style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;" />
+                     </p>
+                     <p style="margin:0em 0em 0em 4.29em;"><span
+                           style="font-family:'Titillium Web','Arial';font-weight:600;font-size:1.429em;color:#03b403;">CONTACTO</span>
+                     </p>
+                     <p style="margin:1.43em 0em 0em 4.29em;"><span
+                           style="font-family:'Verdana';color:rgba(255,255,255,1);">TEL :- +52 5558615137</span></p>
+                     <p style="margin:0.71em 0em 0em 4.29em;"><span
+                           style="font-family:'Verdana';color:rgba(255,255,255,1);">DIR :- Av. Quetzal 84 lt 1, Lomas
+                           del Bosque | Cuautitlan Izcalli, Estado de México.</span></p>
+                     <p style="margin:0.71em 0em 0em 4.29em;"><span
+                           style="font-family:'Verdana';color:rgba(255,255,255,1);">EMAIL :-
+                           info@acusticaintegral.com.mx</span></p>
+                  </div>
+                  <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+               </div>
+            </div>
+            <div class="clearfix visible-lg-block visible-sm-block visible-md-block visible-xs-block"></div>
+         </div>
+
+         <br>
+         <br>
+         <div class="row">
+            <p style="color: white;text-align: center;">Importaciones Internacionales EKL SA de CV, importador y distribuidor exclusivo en México de Acústica Integral S.L.</p>
+            <p style="color: white;text-align: center;"><a href="mailto:info@eklinternacional.com" style="color:#038004; text-decoration: none;">info@eklinternacional.com</a> todas las imágenes y productos en esta página pertencen a Acústica Integral S.L. <a href="http://www.acusticaintegral.com" target="_blank" style="color:#038004; text-decoration: none;">www.acusticaintegral.com</a> </p>
+            <br>
+            <br>
+         </div>
+         <!--Fin-->
+      </footer>
+      <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
+   </div>
+   <script type="text/javascript">
+      WebFontConfig = {
+         google: { families: ['Titillium+Web:600', 'Titillium+Web'] }
+      };
+      (function () {
+         var wf = document.createElement('script');
+         wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js';
+         wf.type = 'text/javascript';
+         wf.async = 'true';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(wf, s);
+      })();
+
+      function pruebas(value) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablink");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+         }
+         document.getElementById(cityName).style.display = "block";
+         elmnt.style.backgroundColor = color;
+
+      }
+
+      function clientesProyectos(value) {
+         console.log(value);
+         if (value == 'clientes') {
+            document.getElementById("clientesButton").classList.remove("tablink");
+            document.getElementById("clientesButton").classList.add("tablinkDefault");
+            document.getElementById("proyectosButton").classList.remove("tablinkDefault");
+            document.getElementById("proyectosButton").classList.add("tablink");
+
+            document.getElementById("seccionClientes").style.display = "block";
+            document.getElementById("seccionProyectos").style.display = "none";
+         } else if (value == 'proyectos') {
+            document.getElementById("clientesButton").classList.remove("tablinkDefault");
+            document.getElementById("clientesButton").classList.add("tablink");
+            document.getElementById("proyectosButton").classList.remove("tablink");
+            document.getElementById("proyectosButton").classList.add("tablinkDefault");
+
+            document.getElementById("seccionClientes").style.display = "none";
+            document.getElementById("seccionProyectos").style.display = "block";
+         }
+      }
+   </script>
+</body>
+
+</html>

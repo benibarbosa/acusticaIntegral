@@ -42,7 +42,7 @@
    <div class="totopshow">
       <a href="#" class="back-to-top"><img alt="Back to Top" src="images/gototop0.png" /></a>
    </div>
-   <div id="ttr_page" class="container">
+   <div id="ttr_page" class="">
       <nav id="ttr_menu" class="navbar-default navbar">
          <div id="ttr_menu_inner_in">
             <div class="menuforeground">

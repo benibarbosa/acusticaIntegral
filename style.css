@@ -6741,7 +6741,7 @@ width:auto;
 }
  #Slide0
 {
-background:url(images/HomeDesktopSlide0.jpg);
+background:url(images/home/HomeDesktopSlide0.jpg);
 background-color:#3498DB;
 background-repeat:no-repeat;
 background-size:cover;
@@ -6750,7 +6750,7 @@ background-clip:padding-box;
 }
  #Slide1
 {
-background:url(images/HomeDesktopSlide1.jpg);
+background:url(images/home/HomeDesktopSlide1.jpeg);
 background-color:#3498DB;
 background-repeat:no-repeat;
 background-size:cover;
@@ -6759,7 +6759,34 @@ background-clip:padding-box;
 }
 #Slide2
 {
-background:url(images/HomeDesktopSlide2.jpeg);
+background:url(images/home/HomeDesktopSlide2.jpg);
+background-color:#3498DB;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:Center Center;
+background-clip:padding-box;
+}
+#Slide3
+{
+background:url(images/home/HomeDesktopSlide3.jpg);
+background-color:#3498DB;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:Center Center;
+background-clip:padding-box;
+}
+#Slide4
+{
+background:url(images/home/HomeDesktopSlide4.jpg);
+background-color:#3498DB;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:Center Center;
+background-clip:padding-box;
+}
+#Slide5
+{
+background:url(images/home/HomeDesktopSlide5.jpg);
 background-color:#3498DB;
 background-repeat:no-repeat;
 background-size:cover;

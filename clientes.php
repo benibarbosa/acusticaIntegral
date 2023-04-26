@@ -310,12 +310,12 @@ $archivos = glob("$directorio/*");
 
 
 foreach ($archivos as $archivo) {   
-   
+    $contador=$contador+1;   
     echo '<div class="col-lg-4 " style="border: 2px solid #ddd;
   border-radius: 25px;
   padding: 25px;
   ">
-				<div class="cliente_child"><img  style=" height: 400px; align:center; width:100%" src="'.$archivo.'" class="img-responsive cliente"></div>
+				<div class="cliente_child"><img  id="'.$contador.'"style=" height: 400px; align:center; width:100%" src="'.$archivo.'" class="img-responsive cliente" onclick="imagenGrande('.$contador.')"></div>
 			</div>';
  }
 	      
@@ -407,11 +407,45 @@ foreach ($archivos as $archivo) {
             <br>
             <br>
          </div>
+       
+
+<!-- Modal -->
+<div class="modal lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color:green" id="exampleModalLongTitle">Proyecto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="modalBody" class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
          <!--Fin-->
       </footer>
       <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
    </div>
    <script type="text/javascript">
+        function imagenGrande(value){
+            $('#modalBody').empty();
+            img = document.getElementById(value);
+            //img.style.transform = 'scale(1.9)';
+            //alert(img.src);
+            $('#modalBody').append('<div  style="border: 2px solid #ddd;  border-radius: 25px;  padding: 25px; "><div class="cliente_child"><img  id="'+value+'Scale"style=" height: 600px; align:center; width:100%" src='+img.src+' class="img-responsive cliente" ></div></div>');
+            //img = document.getElementById(value+'Scale');
+            //img.style.transform = 'scale(1.9)';
+            
+            $('#myModal').modal('show')
+        }
+        
       WebFontConfig = {
          google: { families: ['Titillium+Web:600', 'Titillium+Web'] }
       };

@@ -46,7 +46,7 @@ if (isset($envio)) {
    // $to = $_POST["email"];
   //$to = "miguelga.mg94@gmail.com";
   
-   $to="emmanuel@acusticaintegral.com.mx";
+   $to="info@acusticaintegral.com.mx";
    $subject = "Informes";
    $mensaje ='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -135,8 +135,8 @@ $mensaje2 ='<div><div><p style="margin:0em 0em 0em 0em;text-align:Center;"><span
 # ojo, es una concatenación:
 $headers .= "Content-type:text/html; charset=UTF-8" . "\r\n";
    $headers .= "From:" . $from;
-   mail($_POST["email"], $subject,$mensaje, $headers);    
-   mail($to, $subject, $mensaje2, $headers);
+   mail($to, $subject,$mensaje, $headers);    
+   mail($_POST["email"], $subject, $mensaje2, $headers);
    
    echo '
 <script>
